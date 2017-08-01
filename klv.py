@@ -102,7 +102,7 @@ def main():
                      oui_file.seek(0)
                      for line in oui_file:
                         if network_oui in line:
-                           network_manufacturer = line[17:]
+                           network_manufacturer = line[18:]
                            break
    
                if network_bssid not in bssid_list:
